@@ -1,7 +1,7 @@
 import s from './Notification.module.css'
-const Notification = () => {
+const Notification = ({message}) => {
     return (
-        <p className={s.text}>No feedback given</p>
+        <p className={s.text}>{message}</p>
     );
 }
 
